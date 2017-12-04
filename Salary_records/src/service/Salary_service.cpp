@@ -1,11 +1,7 @@
 #include "Salary_service.h"
 
-Salary_service::Salary_service()
-{
-    //ctor
-}
 
-Salary_service::~Salary_service()
+void Salary_service::add_salary(const Salary_record& salary)
 {
-    //dtor
+    salary_repo.add_salary(salary);
 }

@@ -1,8 +1,8 @@
 #ifndef SALARY_UI_H
 #define SALARY_UI_H
 #include <string>
-#include <Salary_record.h>
 #include <iostream>
+#include <Salary_service.h>
 
 using namespace std;
 
@@ -12,6 +12,7 @@ class Salary_UI
         void main_menu();
 
     private:
+        Salary_service service;
 };
 
 #endif // SALARY_UI_H

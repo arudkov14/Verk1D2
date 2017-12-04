@@ -2,6 +2,7 @@
 #define SALARY_RECORD_H
 #include <string>
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 

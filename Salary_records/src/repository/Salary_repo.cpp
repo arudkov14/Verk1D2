@@ -1,11 +1,15 @@
 #include "Salary_repo.h"
 
-Salary_repo::Salary_repo()
-{
-    //ctor
-}
 
-Salary_repo::~Salary_repo()
+
+void Salary_repo::add_salary(const Salary_record& salary)
 {
-    //dtor
+    ofstream fout;
+    fout.open("salary_files.txt", ios::app);
+    if(fout.is_open())
+    {
+        fout << salary;
+
+        fout.close();
+    }
 }

@@ -41,6 +41,7 @@ ostream& operator<<(ostream& out, const Salary_record& salary)
     out << salary._salary_this_month << endl;
     out << salary._month << endl;
     out << salary._year << endl;
+    out << endl;
 
     return out;
 }
