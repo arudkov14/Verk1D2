@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1512392054 source:c:\users\andrey\documents\c++\salary_records\main.cpp
+	<iostream>
+	<Salary_UI.h>
+
+1512391773 source:c:\users\andrey\documents\c++\salary_records\src\models\salary_record.cpp
+	"Salary_record.h"
+
+1512391880 c:\users\andrey\documents\c++\salary_records\include\models\salary_record.h
+	<string>
+	<fstream>
+
+1512389574 source:c:\users\andrey\documents\c++\salary_records\src\repository\salary_repo.cpp
+	"Salary_repo.h"
+
+1512389574 c:\users\andrey\documents\c++\salary_records\include\repository\salary_repo.h
+
+1512389631 source:c:\users\andrey\documents\c++\salary_records\src\service\salary_service.cpp
+	"Salary_service.h"
+
+1512389631 c:\users\andrey\documents\c++\salary_records\include\service\salary_service.h
+
+1512392256 c:\users\andrey\documents\c++\salary_records\include\ui\salary_ui.h
+	<string>
+	<Salary_record.h>
+	<iostream>
+
+1512392526 source:c:\users\andrey\documents\c++\salary_records\src\ui\salary_ui.cpp
+	"Salary_UI.h"
+
