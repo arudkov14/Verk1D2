@@ -1,14 +1,7 @@
-//
-//  InvalidMonthException.h
-//  Salary_records_Mac
-//
-//  Created by Kristófer Gudmundsson on 5.12.2017.
-//  Copyright © 2017 Kristófer Alex Gudmundsson. All rights reserved.
-//
+#ifndef INVALIDMONTHEXCEPTION_H
+#define INVALIDMONTHEXCEPTION_H
 
-#ifndef InvalidMonthException_h
-#define InvalidMonthException_h
 
-#include <stdio.h>
+class InvalidMonthException{ };
 
-#endif /* InvalidMonthException_h */
+#endif // INVALIDMONTHEXCEPTION_H

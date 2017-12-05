@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104BD3AA1FD6EAFB008C208B /* InvalidYearException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 104BD3A91FD6EAFB008C208B /* InvalidYearException.cpp */; };
 		109361AF1FD6D03600C7408D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109361AE1FD6D03500C7408D /* main.cpp */; };
 		109361B71FD6D1D100C7408D /* Salary_UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109361B51FD6D1D100C7408D /* Salary_UI.cpp */; };
 		109361BA1FD6D1FF00C7408D /* Salary_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109361B81FD6D1FF00C7408D /* Salary_record.cpp */; };
@@ -28,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		104BD3A61FD6E896008C208B /* InvalidMonthException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidMonthException.h; sourceTree = "<group>"; };
+		104BD3A91FD6EAFB008C208B /* InvalidYearException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InvalidYearException.cpp; path = ../../../../../Salary_records/src/exceptions/InvalidYearException.cpp; sourceTree = "<group>"; };
+		104BD3AC1FD6EB44008C208B /* InvalidYearException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvalidYearException.h; path = ../../../../../Salary_records/include/exceptions/InvalidYearException.h; sourceTree = "<group>"; };
 		109361AB1FD6D03500C7408D /* Salary_records_Mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Salary_records_Mac; sourceTree = BUILT_PRODUCTS_DIR; };
 		109361AE1FD6D03500C7408D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		109361B51FD6D1D100C7408D /* Salary_UI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Salary_UI.cpp; sourceTree = "<group>"; };
@@ -39,7 +43,6 @@
 		109361BE1FD6D31800C7408D /* Salary_service.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Salary_service.cpp; sourceTree = "<group>"; };
 		109361BF1FD6D31800C7408D /* Salary_service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Salary_service.h; sourceTree = "<group>"; };
 		109361C31FD6D3A000C7408D /* InvalidMonthException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InvalidMonthException.cpp; sourceTree = "<group>"; };
-		109361C41FD6D3A000C7408D /* InvalidMonthException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvalidMonthException.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,7 @@
 		109361C91FD6D3EC00C7408D /* exceptions */ = {
 			isa = PBXGroup;
 			children = (
+				104BD3A91FD6EAFB008C208B /* InvalidYearException.cpp */,
 				109361C31FD6D3A000C7408D /* InvalidMonthException.cpp */,
 			);
 			path = exceptions;
@@ -146,7 +150,8 @@
 		109361CB1FD6D40000C7408D /* exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				109361C41FD6D3A000C7408D /* InvalidMonthException.h */,
+				104BD3AC1FD6EB44008C208B /* InvalidYearException.h */,
+				104BD3A61FD6E896008C208B /* InvalidMonthException.h */,
 			);
 			path = exceptions;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				109361C51FD6D3A000C7408D /* InvalidMonthException.cpp in Sources */,
 				109361BA1FD6D1FF00C7408D /* Salary_record.cpp in Sources */,
 				109361BD1FD6D2A900C7408D /* Salary_repo.cpp in Sources */,
+				104BD3AA1FD6EAFB008C208B /* InvalidYearException.cpp in Sources */,
 				109361C01FD6D31800C7408D /* Salary_service.cpp in Sources */,
 				109361AF1FD6D03600C7408D /* main.cpp in Sources */,
 				109361B71FD6D1D100C7408D /* Salary_UI.cpp in Sources */,

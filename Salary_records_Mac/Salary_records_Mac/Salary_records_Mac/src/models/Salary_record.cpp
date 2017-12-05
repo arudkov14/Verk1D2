@@ -8,7 +8,8 @@
 
 #include "Salary_record.h"
 
-Salary_record::Salary_record(string name, int SSN, int salary_this_month, int month, int year)
+
+Salary_record::Salary_record(string name, string SSN, int salary_this_month, int month, int year)
 {
     this->_name = name;
     this->_SSN = SSN;
@@ -22,7 +23,7 @@ string Salary_record::get_name()
     return this->_name;
 }
 
-int Salary_record::get_SNN()
+string Salary_record::get_SNN()
 {
     return this->_SSN;
 }
