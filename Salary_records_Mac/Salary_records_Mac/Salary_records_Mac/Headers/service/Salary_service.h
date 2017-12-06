@@ -21,7 +21,7 @@ class Salary_service
 {
 public:
     void add_salary(const Salary_record& salary);
-    
+    bool is_valid_salary(const Salary_service& salary);
 private:
     Salary_repo salary_repo;
 };

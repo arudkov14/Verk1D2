@@ -43,7 +43,7 @@ int Salary_record::get_year()
     return this->_year;
 }
 
-ostream& operator<<(ostream& out, const Salary_record& salary)
+ostream& operator <<(ostream& out, const Salary_record& salary)
 {
     out << salary._name << endl;
     out << salary._SSN << endl;

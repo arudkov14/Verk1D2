@@ -10,9 +10,12 @@
 
 void Salary_service::add_salary(const Salary_record& salary)
 {
-    salary_repo.add_salary(salary);
+    if (is_valid_salary(salary)) {
+        salary_repo.add_salary(salary);
+    }
 }
 
-bool Salary_service::is_name_valid() {
+bool Salary_service::is_valid_salary(const Salary_service& salary) {
+    
     
 }

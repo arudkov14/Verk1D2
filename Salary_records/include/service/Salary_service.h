@@ -4,7 +4,11 @@
 #include <iostream>
 #include "Salary_repo.h"
 #include "InvalidMonthException.h"
+#include "InvalidSSNException.h"
 #include "InvalidYearException.h"
+#include "InvalidNameException.h"
+#include "InvalidSalaryThisMonthException.h"
+#include <string>
 using namespace std;
 
 
