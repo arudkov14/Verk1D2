@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include <Salary_service.h>
+#include "Salary_record.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ class Salary_UI
         void main_menu();
 
     private:
+        Salary_record salary_repo;
         Salary_service service;
 };
 

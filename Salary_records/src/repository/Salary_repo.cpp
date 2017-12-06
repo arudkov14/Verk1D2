@@ -13,3 +13,7 @@ void Salary_repo::add_salary(const Salary_record& salary)
         fout.close();
     }
 }
+
+
+
+

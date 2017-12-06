@@ -1,0 +1,17 @@
+#ifndef MAIN_UI_H
+#define MAIN_UI_H
+using namespace std;
+#include <iostream>"
+
+
+class Main_UI
+{
+    public:
+        Main_UI();
+
+        void startUI();
+
+    private:
+};
+
+#endif // MAIN_UI_H
