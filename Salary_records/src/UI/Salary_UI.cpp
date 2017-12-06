@@ -12,7 +12,7 @@ void Salary_UI::main_menu()
     int salary_this_month, month, year;
 
     cout << "Name: ";
-    cin >> name;
+    getline(cin, name);
     cout << "SSN: ";
     cin >> SSN;
     cout << "Salary this month: ";
