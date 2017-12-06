@@ -18,16 +18,18 @@
 	"Salary_record.h"
 	<fstream>
 
-1512563121 source:c:\users\andrey\documents\c++\salary_records\src\service\salary_service.cpp
+1512567462 source:c:\users\andrey\documents\c++\salary_records\src\service\salary_service.cpp
 	"Salary_service.h"
 
-1512562460 c:\users\andrey\documents\c++\salary_records\include\service\salary_service.h
+1512566406 c:\users\andrey\documents\c++\salary_records\include\service\salary_service.h
 	"Salary_record.h"
 	<iostream>
 	"Salary_repo.h"
 	"InvalidMonthException.h"
 	"InvalidSSNException.h"
 	"InvalidYearException.h"
+	"InvalidNameException.h"
+	"InvalidSalaryThisMonthException.h"
 	<string>
 
 1512395298 c:\users\andrey\documents\c++\salary_records\include\ui\salary_ui.h
@@ -35,7 +37,7 @@
 	<iostream>
 	<Salary_service.h>
 
-1512561745 source:c:\users\andrey\documents\c++\salary_records\src\ui\salary_ui.cpp
+1512564009 source:c:\users\andrey\documents\c++\salary_records\src\ui\salary_ui.cpp
 	"Salary_UI.h"
 
 1512478336 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidmonthexception.cpp
@@ -52,4 +54,14 @@
 
 1512562172 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidssnexception.cpp
 	"InvalidSSNException.h"
+
+1512565744 c:\users\andrey\documents\c++\salary_records\include\exceptions\invalidnameexception.h
+
+1512565744 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512565745 c:\users\andrey\documents\c++\salary_records\include\exceptions\invalidsalarythismonthexception.h
+
+1512565745 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidsalarythismonthexception.cpp
+	"InvalidSalaryThisMonthException.h"
 
