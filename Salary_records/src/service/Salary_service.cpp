@@ -27,7 +27,7 @@ bool Salary_service::is_valid_salary(Salary_record salary)
         {
             throw InvalidSSNException();
         }
-        for(int i = 0; i < SSN.length(); i++)
+        for(unsigned int i = 0; i < SSN.length(); i++)
         {
             if(isalpha(SSN[i]))
             {

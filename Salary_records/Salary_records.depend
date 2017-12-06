@@ -53,3 +53,74 @@
 1512562172 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidssnexception.cpp
 	"InvalidSSNException.h"
 
+1512574176 source:c:\danni\gitlocal\verk1d2\salary_records\main.cpp
+	<iostream>
+	<Salary_UI.h>
+	"Main_UI.h"
+
+1512570518 c:\danni\gitlocal\verk1d2\salary_records\include\ui\salary_ui.h
+	<string>
+	<iostream>
+	<Salary_service.h>
+	"Salary_record.h"
+
+1512565599 c:\danni\gitlocal\verk1d2\salary_records\include\service\salary_service.h
+	"Salary_record.h"
+	<iostream>
+	"Salary_repo.h"
+	"InvalidMonthException.h"
+	"InvalidSSNException.h"
+	"InvalidYearException.h"
+	<string>
+
+1512577014 c:\danni\gitlocal\verk1d2\salary_records\include\models\salary_record.h
+	<string>
+	<fstream>
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1512570721 c:\danni\gitlocal\verk1d2\salary_records\include\repository\salary_repo.h
+	"Salary_record.h"
+	<fstream>
+	"Salary_record.h"
+
+1512565436 source:c:\danni\gitlocal\verk1d2\salary_records\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512565436 source:c:\danni\gitlocal\verk1d2\salary_records\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512576573 source:c:\danni\gitlocal\verk1d2\salary_records\src\models\salary_record.cpp
+	"Salary_record.h"
+
+1512570687 source:c:\danni\gitlocal\verk1d2\salary_records\src\repository\salary_repo.cpp
+	"Salary_repo.h"
+
+1512565801 source:c:\danni\gitlocal\verk1d2\salary_records\src\service\salary_service.cpp
+	"Salary_service.h"
+
+1512575229 source:c:\danni\gitlocal\verk1d2\salary_records\src\ui\salary_ui.cpp
+	"Salary_UI.h"
+
+1512565436 c:\danni\gitlocal\verk1d2\salary_records\include\exceptions\invalidmonthexception.h
+
+1512565436 c:\danni\gitlocal\verk1d2\salary_records\include\exceptions\invalidssnexception.h
+
+1512565436 c:\danni\gitlocal\verk1d2\salary_records\include\exceptions\invalidyearexception.h
+
+1512565592 source:c:\danni\gitlocal\verk1d2\salary_records\src\exceptions\deleteme.cpp
+	"DELETEME.h"
+
+1512565592 c:\danni\gitlocal\verk1d2\salary_records\include\exceptions\deleteme.h
+
+1512565436 source:c:\danni\gitlocal\verk1d2\salary_records\src\exceptions\invalidssnexception.cpp
+	"InvalidSSNException.h"
+
+1512576865 source:c:\danni\gitlocal\verk1d2\salary_records\src\ui\main_ui.cpp
+	"Main_UI.h"
+
+1512574176 c:\danni\gitlocal\verk1d2\salary_records\include\ui\main_ui.h
+	<iostream>
+	"Salary_UI.h"
+

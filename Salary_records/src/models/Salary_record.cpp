@@ -1,5 +1,11 @@
 #include "Salary_record.h"
 
+Salary_record::Salary_record() {
+
+
+
+}
+
 Salary_record::Salary_record(string name, string SSN, int salary_this_month, int month, int year)
 {
     this->_name = name;
@@ -7,6 +13,8 @@ Salary_record::Salary_record(string name, string SSN, int salary_this_month, int
     this->_salary_this_month = salary_this_month;
     this->_month = month;
     this->_year = year;
+
+
 }
 
 string Salary_record::get_name()
@@ -44,4 +52,42 @@ ostream& operator<<(ostream& out, const Salary_record& salary)
     out << endl;
 
     return out;
+}
+
+istream& operator >>(istream& in, Salary_record& salary)
+{
+
+    in >> salary._name;
+    in >> salary._SSN;
+    in >> salary._salary_this_month;
+    in >> salary._month;
+    in >> salary._year;
+
+    return in;
+
+
+}
+
+
+vector<Salary_record> Salary_record::sendToVector() {
+
+    vector<Salary_record> salary_records;
+    Salary_record salaries;
+
+    ifstream fin;
+    fin.open("salary_files.txt");
+
+    if(fin.is_open()) {
+        while(fin >> salaries) {
+            salary_records.push_back(salaries);
+        }
+        for (int i = 0; i < salary_records.size(); i++) {
+            cout << "[" << i << "] " << salary_records[i] << endl;
+
+        }
+    }
+
+    fin.close();
+    return salary_records;
+
 }
