@@ -41,11 +41,15 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/UI/Salary_UI.h" />
+		<Unit filename="include/exceptions/InvalidMonthException.h" />
+		<Unit filename="include/exceptions/InvalidYearException.h" />
 		<Unit filename="include/models/Salary_record.h" />
 		<Unit filename="include/repository/Salary_repo.h" />
 		<Unit filename="include/service/Salary_service.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/UI/Salary_UI.cpp" />
+		<Unit filename="src/exceptions/InvalidMonthException.cpp" />
+		<Unit filename="src/exceptions/InvalidYearException.cpp" />
 		<Unit filename="src/models/Salary_record.cpp" />
 		<Unit filename="src/repository/Salary_repo.cpp" />
 		<Unit filename="src/service/Salary_service.cpp" />

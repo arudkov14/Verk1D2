@@ -8,8 +8,8 @@ void Salary_UI::main_menu()
 {
     cout << "Hello here you can add a salary record: " << endl;
 
-    string name;
-    int SSN, salary_this_month, month, year;
+    string name, SSN;
+    int salary_this_month, month, year;
 
     cout << "Name: ";
     cin >> name;

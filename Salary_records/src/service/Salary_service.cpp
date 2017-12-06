@@ -21,15 +21,34 @@ bool Salary_service::is_valid_salary(Salary_record salary)
         {
             throw InvalidYearException();
         }
+
+        string SSN = salary.get_SNN();
+        if(SSN.length()!= 10)
+        {
+            throw InvalidSSNException();
+        }
+        for(int i = 0; i < SSN.length(); i++)
+        {
+            if(isalpha(SSN[i]))
+            {
+                throw InvalidSSNException();
+            }
+        }
+
     }
     catch(InvalidMonthException e)
-        {
-            cout << "There is only 12 months";
-            return false;
-        }
+    {
+        cout << "There is only 12 months";
+        return false;
+    }
     catch(InvalidYearException e)
     {
         cout << "Only 2017";
+        return false;
+    }
+    catch(InvalidSSNException e)
+    {
+        cout << "SSN is supposed to be 10 digits";
         return false;
     }
 
