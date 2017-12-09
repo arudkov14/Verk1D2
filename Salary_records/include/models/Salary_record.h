@@ -30,11 +30,11 @@ class Salary_record
 
     private:
 
-        string _name;
-        string _SSN;
-        int _salary_this_month;
-        int _month;
-        int _year;
+        string name;
+        string SSN;
+        int salary_this_month;
+        int month;
+        int year;
 
 };
 

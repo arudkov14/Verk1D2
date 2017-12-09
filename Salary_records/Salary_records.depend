@@ -55,7 +55,8 @@
 1512562172 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidssnexception.cpp
 	"InvalidSSNException.h"
 
-<<<<<<< HEAD
+1512562172 D
+
 1512574176 source:c:\danni\gitlocal\verk1d2\salary_records\main.cpp
 	<iostream>
 	<Salary_UI.h>
@@ -126,7 +127,9 @@
 1512574176 c:\danni\gitlocal\verk1d2\salary_records\include\ui\main_ui.h
 	<iostream>
 	"Salary_UI.h"
-=======
+
+1512574176 .h"
+
 1512565744 c:\users\andrey\documents\c++\salary_records\include\exceptions\invalidnameexception.h
 
 1512565744 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidnameexception.cpp
@@ -136,5 +139,84 @@
 
 1512565745 source:c:\users\andrey\documents\c++\salary_records\src\exceptions\invalidsalarythismonthexception.cpp
 	"InvalidSalaryThisMonthException.h"
->>>>>>> master
+
+1512565745 ter
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\main.cpp
+	<iostream>
+	<Salary_UI.h>
+	"Main_UI.h"
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\ui\salary_ui.h
+	<string>
+	<iostream>
+	<Salary_service.h>
+	"Salary_record.h"
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\service\salary_service.h
+	"Salary_record.h"
+	<iostream>
+	"Salary_repo.h"
+	"InvalidMonthException.h"
+	"InvalidSSNException.h"
+	"InvalidYearException.h"
+	"InvalidNameException.h"
+	"InvalidSalaryThisMonthException.h"
+	<string>
+
+1512658900 c:\users\stófi\documents\github\verk1d2\salary_records\include\models\salary_record.h
+	<string>
+	<fstream>
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\repository\salary_repo.h
+	"Salary_record.h"
+	<fstream>
+	"Salary_record.h"
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\exceptions\invalidmonthexception.h
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\exceptions\invalidssnexception.h
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\exceptions\invalidyearexception.h
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\exceptions\invalidnameexception.h
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\exceptions\invalidsalarythismonthexception.h
+
+1512654734 c:\users\stófi\documents\github\verk1d2\salary_records\include\ui\main_ui.h
+	<iostream>
+	"Salary_UI.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\exceptions\invalidsalarythismonthexception.cpp
+	"InvalidSalaryThisMonthException.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\exceptions\invalidssnexception.cpp
+	"InvalidSSNException.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512735244 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\models\salary_record.cpp
+	"Salary_record.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\repository\salary_repo.cpp
+	"Salary_repo.h"
+
+1512736166 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\service\salary_service.cpp
+	"Salary_service.h"
+
+1512736075 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\ui\salary_ui.cpp
+	"Salary_UI.h"
+
+1512654734 source:c:\users\stófi\documents\github\verk1d2\salary_records\src\ui\main_ui.cpp
+	"Main_UI.h"
 

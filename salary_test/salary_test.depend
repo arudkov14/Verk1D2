@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1512666506 source:c:\users\stófi\desktop\salary_test\main.cpp
+	<iostream>
+	"MainUI.h"
+
+1512773203 c:\users\stófi\desktop\salary_test\include\mainui.h
+	<iostream>
+	"AddUI.h"
+	"Salaries_for_SSNUI.h"
+	"Total_salaryUI.h"
+
+1512773518 c:\users\stófi\desktop\salary_test\include\service\salary_service.h
+	<iostream>
+	<string>
+	"Salary.h"
+	"Salary_repository.h"
+	"InvalidNameException.h"
+	"InvalidSSNException.h"
+	"InvalidSalaryThisMonthException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
+
+1512822061 source:c:\users\stófi\desktop\salary_test\src\mainui.cpp
+	"MainUI.h"
+
+1512751691 c:\users\stófi\desktop\salary_test\include\ui\addui.h
+	<string>
+	<iostream>
+	"Salary.h"
+	"Salary_service.h"
+
+1512756455 source:c:\users\stófi\desktop\salary_test\src\new folder\salary.cpp
+	"Salary.h"
+
+1512756455 c:\users\stófi\desktop\salary_test\include\new folder\salary.h
+	<string>
+	<iostream>
+
+1512765794 source:c:\users\stófi\desktop\salary_test\src\repository\salary_repository.cpp
+	"Salary_repository.h"
+
+1512763861 c:\users\stófi\desktop\salary_test\include\repository\salary_repository.h
+	<fstream>
+	"Salary.h"
+	<vector>
+
+1512774244 source:c:\users\stófi\desktop\salary_test\src\service\salary_service.cpp
+	"Salary_service.h"
+
+1512759368 source:c:\users\stófi\desktop\salary_test\src\ui\addui.cpp
+	"AddUI.h"
+
+1512748603 source:c:\users\stófi\desktop\salary_test\src\exception\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512748602 c:\users\stófi\desktop\salary_test\include\exception\invalidnameexception.h
+
+1512753543 c:\users\stófi\desktop\salary_test\include\exception\invalidssnexception.h
+
+1512753543 source:c:\users\stófi\desktop\salary_test\src\exception\invalidssnexception.cpp
+	"InvalidSSNException.h"
+
+1512754440 c:\users\stófi\desktop\salary_test\include\exception\invalidmonthexception.h
+
+1512754364 c:\users\stófi\desktop\salary_test\include\exception\invalidsalarythismonthexception.h
+
+1512754440 source:c:\users\stófi\desktop\salary_test\src\exception\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512754364 source:c:\users\stófi\desktop\salary_test\src\exception\invalidsalarythismonthexception.cpp
+	"InvalidSalaryThisMonthException.h"
+
+1512755187 c:\users\stófi\desktop\salary_test\include\exception\invalidyearexception.h
+
+1512755187 source:c:\users\stófi\desktop\salary_test\src\exception\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512765656 c:\users\stófi\desktop\salary_test\include\ui\salaries_for_ssnui.h
+	<iostream>
+	"Salary_service.h"
+
+1512770608 source:c:\users\stófi\desktop\salary_test\src\ui\salaries_for_ssnui.cpp
+	"Salaries_for_SSNUI.h"
+
+1512775718 c:\users\stófi\desktop\salary_test\include\ui\total_salaryui.h
+	<string>
+	<iostream>
+	"Salary_service.h"
+
+1512775733 source:c:\users\stófi\desktop\salary_test\src\ui\total_salaryui.cpp
+	"Total_salaryUI.h"
+
+1512821244 source:c:\users\stófi\desktop\salary_test\src\ui\highest_salaryui.cpp
+	"Highest_salaryUI.h"
+
+1512822061 c:\users\stófi\desktop\salary_test\include\ui\highest_salaryui.h
+

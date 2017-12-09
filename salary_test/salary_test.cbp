@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="salary_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/salary_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="header" />
+					<Add directory="include" />
+					<Add directory="include/service" />
+					<Add directory="include/repository" />
+					<Add directory="include/New folder" />
+					<Add directory="include/UI" />
+					<Add directory="include/exception" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/salary_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="header" />
+					<Add directory="include" />
+					<Add directory="include/service" />
+					<Add directory="include/repository" />
+					<Add directory="include/New folder" />
+					<Add directory="include/UI" />
+					<Add directory="include/exception" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/MainUI.h" />
+		<Unit filename="include/New folder/Salary.h" />
+		<Unit filename="include/UI/AddUI.h" />
+		<Unit filename="include/UI/Highest_salaryUI.h" />
+		<Unit filename="include/UI/Salaries_for_SSNUI.h" />
+		<Unit filename="include/UI/Total_salaryUI.h" />
+		<Unit filename="include/exception/InvalidMonthException.h" />
+		<Unit filename="include/exception/InvalidNameException.h" />
+		<Unit filename="include/exception/InvalidSSNException.h" />
+		<Unit filename="include/exception/InvalidSalaryThisMonthException.h" />
+		<Unit filename="include/exception/InvalidYearException.h" />
+		<Unit filename="include/repository/Salary_repository.h" />
+		<Unit filename="include/service/Salary_service.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/MainUI.cpp" />
+		<Unit filename="src/New folder/Salary.cpp" />
+		<Unit filename="src/UI/AddUI.cpp" />
+		<Unit filename="src/UI/Highest_salaryUI.cpp" />
+		<Unit filename="src/UI/Salaries_for_SSNUI.cpp" />
+		<Unit filename="src/UI/Total_salaryUI.cpp" />
+		<Unit filename="src/exception/InvalidMonthException.cpp" />
+		<Unit filename="src/exception/InvalidNameException.cpp" />
+		<Unit filename="src/exception/InvalidSSNException.cpp" />
+		<Unit filename="src/exception/InvalidSalaryThisMonthException.cpp" />
+		<Unit filename="src/exception/InvalidYearException.cpp" />
+		<Unit filename="src/repository/Salary_repository.cpp" />
+		<Unit filename="src/service/Salary_service.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

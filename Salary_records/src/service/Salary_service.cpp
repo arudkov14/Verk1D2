@@ -47,9 +47,9 @@ bool Salary_service::is_valid_salary(Salary_record salary)
         {
             throw InvalidSalaryThisMonthException();
         }
-        else if(isalpha(salary_this_month))
+        //else if(isalpha(salary_this_month))
         {
-            throw InvalidSalaryThisMonthException();
+           // throw InvalidSalaryThisMonthException();
         }
 
     }
@@ -71,7 +71,7 @@ bool Salary_service::is_valid_salary(Salary_record salary)
     }
     catch(InvalidNameException e)
     {
-        cout << "Name can´t contain numbers";
+        cout << "Name can't contain numbers";
         return false;
     }
     catch(InvalidSalaryThisMonthException e)
@@ -82,3 +82,8 @@ bool Salary_service::is_valid_salary(Salary_record salary)
 
     return true;
 }
+
+
+//Finna atriði í vector
+//Fá vector í gegnum repo
+//Vinna með það hér.
